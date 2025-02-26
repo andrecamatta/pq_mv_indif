@@ -1,22 +1,22 @@
-# Mean-Variance Portfolio Optimization with Indifference Curves
+# Otimização de Portfólio Média-Variância com Curvas de Indiferença
 
-This project implements mean-variance portfolio optimization with indifference curves in Julia. It visualizes:
+Este projeto implementa a otimização de portfólio média-variância com curvas de indiferença em Julia. Ele visualiza:
 
-- Utility contour plots for different risk aversion coefficients
-- Indifference curves for various risk aversion values
-- The efficient frontier with optimal portfolio allocation
+- Gráficos de contorno de utilidade para diferentes coeficientes de aversão ao risco
+- Curvas de indiferença para vários valores de aversão ao risco
+- A fronteira eficiente com alocação ótima de portfólio
 
-## Files
+## Arquivos
 
-- `figures.jl`: Julia script that generates all visualizations
-- Output files (not included in repository):
-  - `figures.png`: Contour plots showing utility for different risk aversion coefficients
-  - `indifference_curves.png`: Indifference curves for different risk aversion values
-  - `efficient_frontier.png`: The efficient frontier with indifference curves
+- `figures.jl`: Script Julia que gera todas as visualizações
+- Arquivos de saída (não incluídos no repositório):
+  - `figures.png`: Gráficos de contorno mostrando utilidade para diferentes coeficientes de aversão ao risco
+  - `indifference_curves.png`: Curvas de indiferença para diferentes valores de aversão ao risco
+  - `efficient_frontier.png`: A fronteira eficiente com curvas de indiferença
 
-## Usage
+## Uso
 
-Run the Julia script to generate the visualizations:
+Execute o script Julia para gerar as visualizações:
 
 ```julia
 julia figures.jl
